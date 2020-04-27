@@ -1,6 +1,6 @@
 {
   "name": "wc-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "wc for nodejs. Support command call and function call.",
   "main": "wc.js",
   "bin": "bin/wc.js",
