@@ -31,7 +31,7 @@ function _wcrl(readStream, opts = {}){
         });
         rl.on('close', () => {
             reslove([lines, words, bytes]);
-            console.log('close')
+            // console.log('close')
         });
     })
 }
@@ -42,6 +42,10 @@ function _wcrl(readStream, opts = {}){
  * @param {*} options.mode 模式，配置为rl时，使用readline
  * @param {*} options.start 开始计算的位置
  * @param {*} options.end 结束的位置
+ * @param {Boolean} options.isPath 是否是路径
+ * @param {Boolean} options.line 是否计算行
+ * @param {Boolean} options.word 是否计算词数
+ * @param {Boolean} options.byte 是否计算字数
  */
 
 function wc(str = '', options = {}){
