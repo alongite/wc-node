@@ -1,0 +1,22 @@
+{
+  "name": "wc-node",
+  "version": "1.0.0",
+  "description": "wc for nodejs. Support command call and function call.",
+  "main": "wc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alongite/wc-node.git"
+  },
+  "keywords": [
+    "wc"
+  ],
+  "author": "alongite",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alongite/wc-node/issues"
+  },
+  "homepage": "https://github.com/alongite/wc-node#readme"
+}
